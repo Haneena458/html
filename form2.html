@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    table,th,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+
+    }
+   </style>
+</head>
+<body>
+    <h1>Land Of Boxes Order Form</h1>
+    <form action="">
+        <label for="">Name</labe>
+        <input type="text"><br><br>
+        <label for="">Email : </label>
+        <input type="email" name="" id=""><br><br>
+        <label for="">Address : </label>
+        <textarea name="" id=""></textarea><br><br>
+        <label for="">pincode : </label>
+        <input type="text"><br><br>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Part Number</th>
+                    <th>Quantity</th>
+                    <th>Unit Price</th>
+                    <th>Subtotal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Econobox</td>
+                    <td>LB 100</td>
+                    <td>3</td>
+                    <td>R5</td>
+                    <td>R15</td>
+                </tr>
+                <tr>
+                    <td>Standard Box</td>
+                    <td>LB 200</td>
+                    <td>4</td>
+                    <td>R10</td>
+                    <td>R40</td>
+                </tr>
+                <tr>
+                    <td>Premium Box/TD></td>
+                    <td>LB 300</td>
+                    <td>1</td>
+                    <td>R15</td>
+                    <td>R15</td>
+                </tr>
+                <tr>
+                    <td>Deluxe Box/TD></td>
+                    <td>LB 400</td>
+                    <td>0</td>
+                    <td>R20</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>Super Deluxe Box/TD></td>
+                    <td>LB 500</td>
+                    <td>1</td>
+                    <td>R30</td>
+                    <td>R30</td>
+                </tr>
+                <tr>
+                    <td colspan="4">Total</td>
+                    <td>R100</td>
+                </tr>
+            </tbody>
+        </table><br><br>
+        <h2>Credit Card Details</h2><br>
+        <label for="">Card Type:</label><br>
+        <input type="radio" name="card" id="">
+        <label for="">Mastercard</label>
+        <label for="">Card Number</label>
+        <input type="text" name="" id=""><br>
+        <input type="radio" name="card" id="">
+        <label for="">Visa</label>
+        <label for="">Expiry Date</label>
+        <input type="date" name="" id=""><br>
+        <input type="radio" name="card" id="">
+        <label for="">American Express</label><br>
+        <input type="radio" name="card" id="">
+        <label for="">Diners Club</label>
+        <br><br>
+        <label for="">Delivery Address: </label>
+        <textarea name="" id=""></textarea><br><br>
+        <input type="submit" value="Send Order">
+        <input type="reset" value="Clear Form">
+    </form>
+    
+</body>
+</html>
