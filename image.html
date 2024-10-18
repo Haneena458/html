@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    p{
+            margin-left: 240px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(97, 97, 229);
+    }
+    img{
+        margin-left: 150px;
+    }
+    
+    #img1{
+    
+        position: relative;
+        left: 200px;
+        z-index: -1;
+        
+    }
+    #img2{
+        position: absolute;
+        top: 110px;
+        left: 100px;
+    }
+    .p1{
+        color:rgb(97, 97, 229);
+        margin-top: -150px;
+        margin-left: 260px;
+        font-size: 13px;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class="d1"><br><br>
+        <p>Don't do this, don't you dare .You will not like it.</p>
+        <div class="img">
+           <img id="img1" src="https://media.discordapp.net/attachments/1115180622844022876/1282944927856328714/texture-waves2.jpeg?ex=66e13312&is=66dfe192&hm=383f6f6be1e52d1309a851e22918e00115f3cd8dd1f39af4aceeb57646f12ea4&=&format=webp&width=500&height=662" alt="" height="500px" width="370px">
+           <img  id="img2" src="https://media.discordapp.net/attachments/1115180622844022876/1282944928078364693/portrait-1-cropped.jpg?ex=66e13312&is=66dfe192&hm=5c134ed0f023dbe8d4b1f1fb59565a493273779c8443bf4ce31c76c0cd14ff6c&=&format=webp&width=583&height=662" alt="" height="300px" width="250px">
+            
+                <p class="p1">the text is above the image because we have taken the background image which <br>
+                     is taller than the top image out of the document flow and now the only content <br>
+                    height that is recognized is the top image that is statically positioned.</p>
+            
+                  
+        </div>
+        </div>
+</body>
+</html>
+
+
+<!-- .d1{
+        height:1000px ;
+        width: 1000px;
+        background-color: white;
+        margin-left: 200px;
+    } -->

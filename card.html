@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #d1{
+            height: 600px;
+            width: 1300px;
+            background-color: white;
+            margin: 100px;
+            margin-top: 50px;
+        }
+        #d2{
+            height: 600px;
+            width: 400px;
+        }
+        #img1{
+         position: relative;
+         top: -530px;
+         left: 100px;
+         border-radius: 20px;
+        }
+        #img2{
+            position: absolute;
+            top: 370px;
+            left: 300px;
+            border-radius: 20px;
+        }
+        #b1{
+            width: 285px;
+            height: 40px;
+            background-color: purple;
+            color: white;
+            border-radius: 5px;
+            display: block;
+            margin-top: 30px;
+        }
+        #d3{
+            position:relative;
+            top: -470px;
+            left: 800px;
+        }
+        .form{
+           text-align: center;
+           margin-bottom: 25px;
+        }
+        .form-control{
+          text-align: left;
+          margin-bottom: 15px;
+        }
+        .form-control  label{
+            display: block;
+            margin-bottom: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .form-control input{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 10px;
+            display: block;
+            width: 20%;
+        }
+        .c1{
+           display: inline;
+           width: 40px;
+           border: 1px solid black;
+           padding: 10px;
+           border-radius: 5px;
+        }
+        .c2{
+            display: inline;
+           width: 130px;
+           border: 1px solid black;
+           padding: 10px;
+           border-radius: 5px;
+        }
+       
+    </style>
+</head>
+<body bgcolor="black">
+    <div id="d1">
+        <div id="d2">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM9A2M50Av9ptddLhz0eCO8tTe6nMyki44OJyMvBJyOwonNtvO" height="600px"  width="400px">
+          <img id="img1"  src="https://media.discordapp.net/attachments/1115180622844022876/1160807308142587934/front.png?ex=66dd328d&is=66dbe10d&hm=a2aeda098106e9a31634eef557f8df6d3566fb6f72541b69ea35c083ef994302&=&format=webp&quality=lossless&width=542&height=292"  height="210px" width="400px">
+          <img id="img2"    src="https://media.discordapp.net/attachments/1115180622844022876/1160807307832217691/back.png?ex=66dd328c&is=66dbe10c&hm=7408055d03fb554bdd80a33c792ac1a8dad95343afeae1b3dc14ce2d2b76c9a8&=&format=webp&quality=lossless&width=545&height=290"  height="210px" width="400px" alt="">
+        </div>
+        <div id="d3">
+            <form action="" id="form">
+                <div class="form-control">
+                <label for="">CARDHOLDER NAME </label>
+                <input type="text" placeholder="e.g. Jane Appleseed">
+            </div>
+            <div class="form-control">
+                <label for="">CARD NUMBER</label>
+                <input type="text" name="" id="" placeholder="e.g. 1234 5678 9123 0000">
+            </div>
+            <div class="form-control">
+                <label for="">EXP.DATE (MM/YY)&nbsp;&nbsp;&nbsp;
+                &nbsp;CVC </label> </div>
+               <input type="text" class="c1" placeholder="MM">
+               <input type="text" class="c1" placeholder="YY">
+               <input type="text" name="" id="" class="c2" placeholder="e.g.123">
+           <div class="form-controll">
+                <button id="b1">Confirm</button>
+            </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+ 
+h1{
+    color: red;
+}
+#s1{
+    width: 100px;
+    margin-left: 0px;
+    background-color: rgb(229, 48, 48);
+}
+#t1{
+    margin-left: 95px;
+    height: 100px;
+    width: 180px;
+    color: red;
+}
+#g1{
+    margin-left: 120px;
+}
+#e1{
+    margin-left: 130px;
+}
+#e2{
+    margin-left: 100px;
+}
+#e3{
+    margin-left: 100px;
+}
+#s2{
+    color: red;
+    margin-left: 140px;
+    width: 120px;
+}
+#s3{
+    width: 100px;
+    margin-left: 170px;
+}
+#e4{
+    margin-left: 60px;
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      nav{
+        /* display: flex; */
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        padding-bottom: 50px;
+      }
+      .h1{
+        position: fixed;
+      }
+      ul{
+        display: flex;
+        list-style-type: none;
+        gap: 30px;
+        text-transform:uppercase;
+        padding: 20px;
+        padding-top: 10px;
+      }
+      li a{
+        display: block;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: black;
+      }
+      li a:hover:not(.active){
+       background-color: white ;
+      }
+      .active{
+        color: rgb(67, 67, 177);
+      }
+      .fa-magnifying-glass{
+       padding: 20px;
+      }
+      button{
+        height: 50px;
+        width: 190px;
+        background-color: rgb(2, 178, 205);
+        color: white;
+        border: none;
+        font-size: 18px;
+      }
+      button:hover{
+          background-color: rgb(21, 142, 176);
+      }
+      .head{
+        height: 450px;
+        width:auto;
+        background-color: aliceblue;
+        background-image: linear-gradient(rgba(15, 23, 43, .6), rgba(15, 23, 43, .9)), url(track2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 100px;
+      }
+      @media screen and (max-width:800px) {
+        nav{
+            flex-direction: column;
+        }
+        .head{
+          flex-direction: column;
+        }
+      }
+      @media screen and (max-width:400px){
+        .head1{
+          
+          flex-flow: wrap;
+        }
+      }
+      .h2{
+        font-size: 50px;
+        color: white;
+      }
+      .h3{
+        padding-top: 20px;
+        padding-bottom: 20px;
+       
+      }
+      .hh{
+        color: rgb(64, 65, 128);
+      }
+     
+      .h4{
+        padding: 10px;
+      }
+      .d1{
+        padding: 20px;
+
+      }
+    </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/521a5f81a1.js" crossorigin="anonymous"></script>
+
+    <nav>
+       <h1 class="h1"><strong>Carint</strong></h1>
+       <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a href="">Service</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact Us</a></li>
+        <li><a href=""><i class="fa-solid fa-user"></i> Login</a></li>
+        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+       </ul>
+    </nav>
+    <div class="head">
+    
+        <h1 class="h2">WE PROVIDE BEST <br> TRANSPORT SERVICE</h1>
+        <H6 class="h3">Lorem ipsum dolor sit amet,consectetur adipiscing elit.Aliquan at sapien 
+            portitor urna elementum lacinia.In id magna pulvinar ,ultrices lorem id.
+            Lorem ipsum dolor sit amet,consectetur adipiscing elit.Aliquan at sapien 
+            portitor urna elementum lacinia.In id magna pulvinar ,ultrices lorem id.</H6>
+            <button>Get A Quote</button>
+      
+    </div>
+
+  <div class="d1">
+      <h1 class="h4">Our Services</h1>
+      <h5 class="h4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration </h5>
+    <div class="div">
+          <i class="fa-solid fa-plane-departure fa-2xl"></i>
+          <h1>Air Transport </h1>
+          <h5>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</h5>
+          <h5 class="hh"> <br>Read More</h5>
+        </div>
+   <div class="div1">
+          <i class="fa-solid fa-ship fa-2xl"></i>
+           <h1>Cargo Transport</h1>
+           <h5>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</h5>
+           <h5 class="hh"> <br>Read More</h5>
+        </div>
+    <div class="div2">
+          <i class="fa-solid fa-truck-fast fa-2xl"></i>
+          <h1>Trucks Transport</h1>
+          <h5>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</h5>
+          <h5 class="hh"> <br>Read More</h5>
+        </div>
+    
+    <div class="div4">
+      <i class="fa-solid fa-train-subway fa-2xl"></i>
+         <h1>Train Transport</h1>
+         <h5>fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using</h5>
+         <h5 class="hh"> <br>Read More</h5>
+    </div>
+
+    <div>
+      <h1>About Us</h1>
+      <h5>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All</h5>
+      <button class="b1">Read More</button>
+    </div>
+  </div>
+
+   
+
+
+
+
+
+
+
+
+</body>
+</html>

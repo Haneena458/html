@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aliceblue;
+            background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)),url(bg-hero.jpg);
+            background-repeat: repeat-y ;
+            background-position:50% 50%;
+           
+        }
+        .nav{
+            height: 150px;
+            width: 1600px;
+            /* background-color: antiquewhite; */
+            display: flex;
+            list-style-type: none;
+            justify-content:space-around;
+            position: relative;
+            top: 30px;
+            left: -60px;
+        }
+        .nav_item{
+            display: flex;
+            list-style-type: none;
+            gap: 25px;
+            margin-top: 50px;
+        }
+        li a{
+            color: white;
+            text-decoration: none;
+        }
+        li a:hover{
+            color:rgb(255, 140, 0) ;
+        }
+        .fa-solid{
+          margin-top: 50px;
+          margin-left: 30px;
+        color:rgb(255, 140, 0) ;
+      }
+      .h1{
+        color: rgb(255, 140, 0);
+      }
+      #a1{
+        margin-top: 20px;
+      }
+      .dropbtn{
+        display: inline-block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px; 
+        text-decoration: none;
+      }
+      .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 100px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+    .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+     }
+
+     .dropdown-content a:hover {
+      background-color: #f1f1f1;   
+    }
+
+     .dropdown:hover .dropdown-content {
+      display: block;
+      }
+      .b1{
+       background-color:rgb(255, 140, 0) ;
+       color: white;
+       height: 45PX;
+       width: 200PX;
+       border-radius: 6PX;
+       position: absolute;
+       top: 36PX;
+      }
+      #s1{
+        background-color: rgba(85, 81, 81, 0.171);
+        border-color:rgba(85, 81, 81, 0.171) ;
+        color: white;
+
+      }
+      .a2{
+        font-size: 80px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 180px;
+      }
+      .a3{
+        font-size: 15px;
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        left: 100px;
+        top: 420px;
+      }
+      .b2{
+        background-color:rgb(255, 140, 0) ;
+       color: white;
+       height: 45PX;
+       width: 200PX;
+       border-radius: 6PX;
+       position: absolute;
+       top: 580PX;
+       left: 100px;
+      }
+      .i1{
+        position: absolute;
+        left: 850px;
+        top: 200px;
+        animation: i1 8s linear infinite;
+      }
+      @keyframes i1{
+        0%{
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      } 
+      .transition{
+        /* position: relative; */
+        animation-name: eg1;
+        animation-duration: 4s;
+        transform: translateX(100px);
+
+      }
+      @keyframes eg1{
+        0%{
+          transform: translateX(-1000px);
+        }
+        100%{
+          transform: translateX(100px);
+        }
+      }
+      .d1{
+        height: 250px;
+        width: 250px;
+        background-color: aliceblue;
+        margin-left: 250px;
+        margin-top: 100px;
+        font-size: 23px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        animation-name: eg2;
+        animation-duration: 4s;
+        transform: translateX(0px);
+      }
+      @keyframes eg2{
+        0%{
+         transform: translateY(200px);
+        }
+        100%{
+          transform: translateY(-0px);
+        }
+      }
+      .d2{
+        height: 250px;
+        width: 250px;
+        background-color: aliceblue;
+        margin-top: 100px;
+        font-size: 23px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        animation-name: eg2;
+        animation-duration: 4s;
+        transform: translateX(0px);
+      }
+      @keyframes eg2{
+        0%{
+          transform: translateY(200px);
+        }
+        100%{
+          transform: translateY(0px);
+        }
+      }
+      .d3{
+        height: 250px;
+        width: 250px;
+        background-color: aliceblue;
+        margin-top: 100px;
+        font-size: 23px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        animation-name: eg2;
+        animation-duration: 4s;
+        transform: translateX(0px);
+      }
+      @keyframes eg2{
+        0%{
+          transform: translateY(200px);
+        }
+        100%{
+          transform: translateY(0px);
+        }
+      }
+      .d4{
+        height: 250px;
+        width: 250px;
+        background-color: aliceblue;
+        margin-top: 100px;
+        font-size: 23px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        animation-name: eg2;
+        animation-duration: 4s;
+        transform: translateX(0px);
+      }
+       @keyframes eg2{
+        0%{
+          transform: translateY(200px);
+        }
+        100%{
+          transform: translateY(0px);
+        }
+       }
+      h4{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+        margin-top: 50px;
+      }
+      .h6{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: 20px;
+      }
+      .transition2{
+        height: 500px;
+        width: 1700px;
+        background-color: white;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        position:relative;
+        top: 700px;
+        left: -10px;
+      }
+    </style>
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/521a5f81a1.js" crossorigin="anonymous"></script>
+<div>
+    <div class="nav">
+    <li id="a1"><h1 class="h1"><i class="fa-solid fa-utensils"></i> Restoran</li>
+    <ul class="nav_item">
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">SERVICE</a></li>
+        <li><a href="">MENU</a></li>
+        <li>
+        <li class="dropdown">
+            <a href="" class="dropbtn">PAGES</a>
+            <div class="dropdown-content">
+                <a href="">one</a>
+                <a href="">two</a>
+                <a href="">three</a>
+            </div>
+    </li>
+        <li><a href="">CONTACT</a></li>
+        <li><BUTton class="b1">BOOK A TABLE</BUTton></li>
+
+    </ul>
+    </div>
+    <div class="transition">
+    <h1 class="a2">
+        Enjoy Our <br> Delicious Meal
+    </h1>
+    <h6 class="a3"> Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et <br>
+         eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore <br> erat amet</h6>
+    <BUTton class="b2">BOOK A TABLE</BUTton>
+  </div>
+<div>
+    <img id="i2" class="i1" src="hero.png" alt="" height="550px">
+  </div>
+  </div>
+    <div class="transition2">
+    <div class="d1">
+      <i class="fa-solid fa-user-tie fa-2xl"></i>
+      <h4>Master Chefs</h4>
+      <h6 class="h6">Diam elitr kasd sed at elitr <br> 
+        sed ipsum justo dolor sed <br> clita amet diam</h6>
+    </div>
+    <div class="d2">
+      <i class="fa-solid fa-utensils fa-2xl"></i>
+      <h4>Quality food</h4>
+      <h6 class="h6">Diam elitr kasd sed at elitr <br> 
+        sed ipsum justo dolor sed <br> clita amet diam</h6>
+    </div>
+    <div class="d3">
+      <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+      <h4>Online Order</h4>
+      <h6 class="h6">Diam elitr kasd sed at elitr <br> 
+        sed ipsum justo dolor sed <br> clita amet diam</h6>
+    </div>
+    <div class="d4">
+      <i class="fa-solid fa-headset fa-2xl"></i>
+      <h4>24/7 Service</h4>
+      <h6 class="h6">Diam elitr kasd sed at elitr <br> 
+        sed ipsum justo dolor sed <br> clita amet diam</h6>
+    </div>
+  </div>
+</body>
+</html>

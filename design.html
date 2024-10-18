@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .main{
+            height: 1000px;
+            width: 1000px;
+            background-color: white;
+            position: relative;
+            left: 200px;
+            z-index: -1;
+        } */
+        .main2{
+            height: 1100px;
+            width: 1500px;
+            background-color: rgb(2, 2, 46);
+            position: absolute;
+            z-index: -1;
+        }
+        .h{
+            font-size: 75px;
+            color: white;
+            margin-top: 30px;
+            margin-left: 200px;
+        }
+        .h1{
+            color: white;
+            margin-top: 230px;
+            margin-left: 200px;
+            position: absolute;
+            top: 120px;
+        }
+        #b1{
+            height: 30px;
+            width: 100px;
+            border-radius: 7px;
+            border: 1px solid white;
+            position: absolute;
+            top: 450px;
+            left: 200px;
+        }
+        .main3{
+            height: 400px;
+            width: 450px;
+            color: white;
+            position: absolute;
+            top: 200px;
+            left: 1000px;
+        }
+        h1{
+            font-size: 90px;
+
+        }
+        .main4{
+            height: 400px;
+            width: 500px;
+            position: absolute;
+            top: -100px;
+            left: 1000px;
+        
+        }
+        #img1{
+            border-radius: 100px;
+        }
+        /* .main5{
+            height: 130px;
+            width: 500px;
+            background-color: black;
+            position: absolute;
+            top: -105px;
+            left: 850px;
+            z-index: 1;
+        } */
+        .d{
+            height: 105px;
+            width: 500px;
+            background-color: black;
+            position: absolute;
+            top: -105px;
+            left: 850px;
+            z-index: 1;
+        }
+        img{
+            border-radius: 10px;
+        }
+        .main6{
+           height: 300px;
+           width: 600px;
+           position: absolute;
+           top: 550px;
+           left: 200px;
+        }
+        .main7{
+            border-radius: 10px;
+            display: flex;
+            gap: 5px;
+            position: absolute;
+            top: 840px;
+            left: 200px;
+
+        }
+    </style>
+</head>
+<body bgcolor="black">
+    <div class="main">
+        <div class="main2">
+            <h1 class="h">Discover <br> the power <br> of design</h1>
+            <br>
+            <p class="h1">Lorem ipsum dolor sit amet,consectetur adipiscing <br> elit.Aliquan at sapien 
+                portitor urna elementum lacinia. <br>In id magna pulvinar ,ultrices lorem id.</p>
+                <button id="b1">Explore</button>
+        </div>
+        <div class="main5">
+         <div class="d"></div>
+        </div>
+        <div class="main4">
+            <img id="img1" src="data:image/jpeg;base64,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" height="400px" width="200px" alt="" >
+            <img id="img1" src="https://altair.com/images/default-source/content-images/altair_lp_future-industry-2023_panels_image-left.png?sfvrsn=45b3dde2_1" height="400px" width="200px" alt="">
+        </div>
+        <div class="main3">
+            <h1>__</h1>
+            <h3>01</h3>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing  elit. <br>Aliquan at sapien </p>
+            <h3>02</h3>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing  elit. <br>Aliquan at sapien </p>
+            <h3>03</h3>
+            <p>Lorem ipsum dolor sit amet,consectetur adipiscing  elit. <br>Aliquan at sapien </p>
+        </div>
+        <div class="main6">
+          <img src="https://images.pexels.com/photos/17486100/pexels-photo-17486100.png?h=150" height="250px" width="500px" alt="">
+        </div>
+        <div class="main7">
+            <img src="https://assets.bizclikmedia.net/138/b62159a5029e6a7adb3bf522b6585e01:4f56df62c1d8d78be87af2c4fb20cc20/google-deepmind-d-yzmkgsyic-unsplash.webp" height="200px" width="385px" alt="">
+            <img class="img2" src="https://images.pexels.com/photos/17486102/pexels-photo-17486102.png?cs=srgb&dl=pexels-googledeepmind-17486102.jpg&fm=jpg" height="200px" width="385px" alt="">
+            <img class="img2" src="https://img.wynk.in/unsafe/200x200/filters:no_upscale():strip_exif():format(jpg)/http://s3-ap-south-1.amazonaws.com/wynk-music-cms/srch_ingrooves/music/196922071416/1654324226/srch_ingrooves_196922071416_USA2P2226643.jpg" height="200px" width="385px" alt="">
+        </div>
+    </div>
+</body>
+</html>

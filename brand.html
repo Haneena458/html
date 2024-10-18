@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .d1{
+            height: 700px;
+            width: 1300px;
+            background-color:rgb(234, 227, 227);
+            border-radius: 15px;
+            position: relative;
+            top: 50px;
+            left: 100px;
+           
+        }
+        .d2{
+            height: 700px;
+            width: 300px;
+            background-color: rgb(207, 74, 96);
+            border-radius: 15px;
+
+        }
+        h4{
+            margin-left: 70px;
+            color: white;
+        }
+        .title{
+           text-align: center; 
+           
+        }
+        .h4{
+            height: 25px;
+            width: 280px;
+            background-color: white;
+            color: brown;
+            text-align:center;
+           
+        }
+        .d3{
+            height: 700px;
+            width: 1000px;
+            background-color:rgb(234, 227, 227);
+            position: absolute;
+            top: 0px;
+            left: 280px;
+        }
+        .head{
+            height: 95px;
+            width: 1020px;
+            background-color: white;
+            margin-top: -15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .head input{
+            
+            margin-top: 34px;
+            height: 30px;
+            width: 400px;
+            background-color: rgb(228, 228, 228);
+            border: 0px;
+
+        }
+        .b1{
+            background-color: rgb(224, 16, 16);
+            border-color: red;
+            color:white;
+            margin-top: 12px;
+            
+        }
+        .b2{
+            height: 30px;
+            width: 100px;
+            background-color: rgb(224, 16, 16);
+            border-color: red;
+            color:white;
+            margin-top:34px;
+            
+        }
+        .nav_item{
+         display: flex;
+         list-style-type:none;
+         justify-content:space-evenly;
+         
+        } 
+        .body{
+            margin-top: 50px;
+            margin-left: 50px;
+            display: flex;
+            gap: 40px;
+        }
+        .d4{
+            height: 150px;
+            width: 200px;
+            background-color: white;
+            box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+
+        }
+        .h2{
+            margin-left: 40px;
+            margin-top: -10px;
+        }
+        /* table,th,td{
+            border: 1px solid black;
+        } */
+        .table{
+            height: 350px;
+            width: 600px;
+            background-color: white;
+            margin-left: 50px;
+            text-align:center;
+            box-shadow: 0 5px 16px rgba(0,0,0,0.6);
+        }
+        .l{
+            margin-top: 12px;
+        }
+        .table2{
+            height: 350px;
+            width: 300px;
+            background-color: white;
+            text-align: center;
+            margin-left: 700px;
+            margin-top: -370px;
+            box-shadow: 0 5px 16px rgba(0,0,0,0.6);
+        }
+        h3{
+            margin-left: 20px;
+        }
+        .t1{
+            margin-top: 50px;
+        }
+        .ta{
+            margin-left: 100px;
+        }
+        .tab{
+            margin-left: 5px;
+        }
+        .fa-bell{
+           margin-top: 40px;
+        }
+        #profile1{
+            margin-top: 40px;
+        }
+        .fa-magnifying-glass{
+          margin-left: -20px;
+        }
+        #std{
+            margin-left: 140px;
+            margin-top: 50px;
+        }
+        #tea{
+            margin-left: 140px;
+            margin-top: 50px;
+        }
+        #scl{
+            margin-left: 140px;
+            margin-top: 50px;
+        }
+        #in{
+            margin-left: 140px;
+            margin-top: 50px;
+        }
+        th{
+            padding: 20px;
+        }
+    </style>
+</head>
+<script src="https://kit.fontawesome.com/521a5f81a1.js" crossorigin="anonymous"></script>
+<body bgcolor="pink">
+    <div class="d1">
+        <div class="d2">
+            <br>
+            <h1 class="title">Brand</h1>
+            <div class="h4"><h3>Dashboard</h3></div>
+            <h4><i class="fa-solid fa-book-open-reader"></i> &nbsp;Students</h4>
+            <h4> <i class="fa-solid fa-chalkboard-user"></i> Teachers</h4>
+            <h4> <i class="fa-solid fa-school"></i> Schools</h4>
+            <h4><i class="fa-solid fa-hand-holding-dollar"></i> &nbsp;Income</h4>
+            <h4><i class="fa-solid fa-question"></i> &nbsp;&nbsp;Help</h4>
+            <h4><i class="fa-solid fa-gear"></i> &nbsp;Settings</h4>
+            <div class="d3">
+                <div class="head">
+                        <ul class="nav_item">
+                            <li><input type="text" placeholder="search"><i class="fa-solid fa-magnifying-glass"></i></li>
+                            <li><button class="b2">Add New</button></li>
+                            <i class="fa-solid fa-bell fa-2xl"></i>
+                            <i class="fa-solid fa-circle-user fa-2xl" id="profile1"></i>
+                        </ul>
+                </div>
+                <div class="body">
+                <div class="d4">
+                    <i class="fa-solid fa-book-open-reader fa-2xl" id="std"></i>
+                    <h1 class="h2">2194</h1>
+                    <!-- <i class="fa-solid fa-book-open-reader fa-2xl" id="std"></i> -->
+                    <h5 class="h2">Students</h5>
+                </div>
+                <div class="d4">
+                    <i class="fa-solid fa-chalkboard-user fa-2xl" id="tea"></i>
+                    <h1 class="h2">53</h1>
+                    <h5 class="h2">Teachers</h5>
+                </div>
+                <div class="d4">
+                    <i class="fa-solid fa-school fa-2xl" id="scl"></i>
+                    <h1 class="h2">5</h1>
+                    <h5 class="h2">Schools</h5>
+                </div>
+                <div class="d4">
+                    <i class="fa-solid fa-hand-holding-dollar fa-2xl" id="in"></i>
+                    <h1 class="h2">350000</h1>
+                    <h5 class="h2">Income</h5>
+                </div>
+            </div>
+        <div class="t1">
+
+            <div class="table">
+                <ul class="nav_item">
+                    <li class="l"><b>Recent payment</b></li>
+                    <li><button class="b1">View All</button></li>
+                </ul>
+                <hr>
+                <div class="ta">
+                <table>
+                    <thead>
+                        <br>
+                    <tr>
+                        <th>Name</th>
+                        <th  colspan="5">School</th>
+                        <th>Amount</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                    <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                        <td colspan="2">John Doe</td>
+                        <td colspan="4">St.James College</td>
+                        <td>$120</td>
+                        <td><button class="b1">View</button></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                </table>
+            </div>
+            </div>
+
+            <div class="table2">
+                <h3>New Students &nbsp;&nbsp;&nbsp;&nbsp;<button class="b1">View All</button></h3>
+                <hr>
+                <div class="tab">
+                <table>
+                    <thead>
+                        <br>
+                    <tr>
+                        <th colspan="2"> Profile</th>
+                        <th  colspan="2">Name</th>
+                        <th>Option</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fa-solid fa-circle-user"></i></td>
+                        <td colspan="2">John Steve Doe</td>
+                        <td><i class="fa-solid fa-note-sticky"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fa-solid fa-circle-user"></i></td>
+                        <td colspan="2">John Steve Doe</td>
+                        <td><i class="fa-solid fa-note-sticky"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fa-solid fa-circle-user"></i></td>
+                        <td colspan="2">John Steve Doe</td>
+                        <td><i class="fa-solid fa-note-sticky"></i></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><i class="fa-solid fa-circle-user"></i></td>
+                        <td colspan="2">John Steve Doe</td>
+                        <td><i class="fa-solid fa-note-sticky"></i></td>
+                    </tr>
+                </thead>
+            </div>
+            </div>
+         </div>
+         
+     </div>
+           
+       
+    </div>
+    
+</body>
+</html>

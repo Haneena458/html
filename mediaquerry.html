@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+nav{
+    background-color: blue;
+    display: flex;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+@media screen and (max-width:800px) {
+    ul,nav{
+        flex-direction: column;
+    }
+    
+}
+
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <div>
+            <h1>Business</h1>
+        </div>
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Help</li>
+            </ul>
+        </div>
+    </nav>
+
+</body>
+</html>

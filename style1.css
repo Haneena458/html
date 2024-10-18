@@ -1,0 +1,21 @@
+
+h1,h2{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: aquamarine;
+    background-image: linear-gradient(),url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAlAMBIgACEQEDEQH/xAAaAAEBAQEBAQEAAAAAAAAAAAADAgABBAYF/8QAHRABAQEAAgMBAQAAAAAAAAAAAAECAxEhMUESYf/EABoBAQADAQEBAAAAAAAAAAAAAAIAAQMFBAb/xAAYEQEBAQEBAAAAAAAAAAAAAAAAAQIRA//aAAwDAQACEQMRAD8A+whMjhMtnbpMlyLJchWdJkuRZLkKzq4WDi8hQpITIoTI0CRUTFQaNUqekxUUDsd+OMiMzMimZmQXx+S5oskw9zr0uS5FkuQrKkySDyTIVnSQmRwkCgvJIPJIoKuLiIuAKlRKooK6zMiMzMgszMinxuabAMGw99demyWByXIVlSZJmjyvPsLApZSQcXkKFLlco8rg1nSRcRFwKKu1xMVFBXXXI6pHGjVviBWcZkU+NwfIMmy6NdmkyaByWBWVhIvPseSZGwKWLg4uUOM6WLg8+yQApMkyLJMhQq4uIi4IOx1yOqU1cdrlQa4zMinx0JgcJl07HZpc+l5FCZoWM6aLgsrl8hwKbKoOUko2M6XNJmhyTNZ2BSwmRQmQoUsVlGSZChXXXFCLn1KvqUGszMgvjovN8Iio6vHapZVZRmryPApJSZFCZGwKWVcoouUbGdNmkyHJIzsCmhMhzS5rOxnS5JmizSSs6FJHXI6FFy+3Ha5VDXGZli+OVEux2OO0SKlHKSDYNXmklFFyjwKWUkoZVyjxnTykzQSkzQsZ0+S5Bmlze2WoFPlcFkuWVCljqYtlQcTVJojXGZxYvjo7HO3XbdtcVKOKiuBSSrlFKqVOM6aVWaCaXKNjK16M0krzzS86C5Z2vTmmxXmzoudf1lrIdevNJmvPjR8VhqKp8rHkkYUKyapOgGoZmWD413tHbdu9x3Cduyj7btfGeqXt3sP6d/ScY2l7XNPP+lTSrllqvRNEm3lml50NyytezOjY08Odm49stZDr9DGno475fn8e/L1cW3n3lXXvxYWPNxaejDybi1I0tOmQ0bMywfFOMz6F2qzlrMtlWld7cZbLTvbSsymOlyqlZlMqvNpsWszOsz4t7erhtZmG1Pbw2vZhmeL0OLTp1nmqUbMygf/Z);
+    background-repeat: no-repeat;
+    background-size:contain;
+}
+#p1{
+    color:darksalmon;
+}
+
+
+
+
+
+

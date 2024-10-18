@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        .d1{
+            height: 600px;
+            width: 1200px;
+            background-color: white;
+            border-radius: 15px;
+            position: relative;
+            top: 100px;
+            left: 100px;
+           
+        }
+        .d2{
+            height: 600px;
+            width: 300px;
+            background-color: rgb(207, 74, 96);
+            border-radius: 15px;
+
+        }
+        h4{
+            margin-left: 50px;
+            color: white;
+        }
+        h2{
+            text-align: center;
+        }
+        .h1{
+            background-color: white;
+            color: rgb(177, 86, 86);
+        }
+        /* .d3{
+            height: 600px;
+            width: 1000px;
+            background-color:rgb(234, 227, 227);
+            position: absolute;
+            top: 00px;
+            left: 280px;
+           
+        } */
+        .head{
+            height: 50px;
+            width: 1000px;
+            background-color: white;
+            
+        }
+        .head input{
+            
+            margin-top: 12px;
+            height: 20px;
+            width: 400px;
+            background-color: rgb(228, 228, 228);
+            border: 0px;
+
+        }
+        .b1{
+            background-color: rgb(224, 16, 16);
+            
+            border-color: red;
+            color:white;
+            margin-top: 12px;
+            
+        }
+        .nav_item{
+         display: flex;
+         list-style-type:none;
+         justify-content:space-evenly
+         
+        } 
+        .body{
+            margin-top: 50px;
+            margin-left: 50px;
+            display: flex;
+            gap: 35px;
+        }
+        .d4{
+            height: 150px;
+            width: 200px;
+            background-color: white;
+
+        }
+        .h2{
+            margin-left: 40px;
+        }
+        .table{
+            height: 300px;
+            width: 600px;
+            background-color: white;
+            margin-left: 50px;
+            text-align: center;
+        }
+        .l{
+            margin-top: 12px;
+        }
+        table,th,td{
+            border: 0px solid;
+        }
+        .table2{
+            height: 300px;
+            width: 250px;
+            background-color: white;
+            margin-left: 700px;
+            margin-top: -320px;
+        }
+        h3{
+            margin-left: 20px;
+        }
+        nav{
+            height: 100px;
+            width: 1200px;
+        }
+        .w1{
+          height: 400px;
+          width: 400px;
+          background-color: aqua;
+        }
+        .w2{
+          height: 300px;
+          width: 300px;
+          background-color: rgb(4, 36, 36);
+        }
+        .w3{
+          height: 200px;
+          width: 200px;
+          background-color: rgb(189, 216, 216);
+        }
+    </style>
+</head>
+<body bgcolor="pink">
+    <div class="d1">
+        <div class="d2">
+            <nav>
+                <div>
+                    <b>Brand</b>
+                    <div class="d3">
+                        <div class="head">
+                                <ul class="nav_item">
+                                    <li> <b>Brand</b></li>
+                                    <li><input type="text" placeholder="search"></li>
+                                    <li><button class="b1">Add New</button></li>
+                                </ul>
+                        </div>
+                        </div>
+                </div>
+            </nav>
+            <!-- <h2>Brand</h2> -->
+            <h4 class="h1">Dashboard</h4>
+            <h4>Students</h4>
+            <h4>Teachers</h4>
+            <h4>Schools</h4>
+            <h4>Income</h4>
+            <h4>Help</h4>
+            <h4>Settings</h4>
+            <div class="d3">
+                <div class="head">
+                        <ul class="nav_item">
+                            <li><input type="text" placeholder="search"></li>
+                            <li><button class="b1">Add New</button></li>
+                        </ul>
+                </div>
+                </div>
+                <!-- <div class="body">
+                <div class="d4">
+                    <h1 class="h2">2194</h1>
+                    <h5 class="h2">Students</h5>
+                </div>
+                <div class="d4">
+                    <h1 class="h2">53</h1>
+                    <h5 class="h2">Teachers</h5>
+                </div>
+                <div class="d4">
+                    <h1 class="h2">5</h1>
+                    <h5 class="h2">Schools</h5>
+                </div>
+                <div class="d4">
+                    <h1 class="h2">350000</h1>
+                    <h5 class="h2">Income</h5>
+                </div>
+            </div>
+
+            <div class="table">
+                <ul class="nav_item">
+                    <li class="l"><b>Recent payment</b></li>
+                    <li><button class="b1">View All</button></li>
+                </ul>
+                <hr>
+                <table>
+                    <thead>
+                    <tr>
+                        <th >Name</th>
+                        <th  colspan="5">School</th>
+                        <th>Amount</th>
+                        <th>Option</th>
+                    </tr>
+                </thead>
+                    <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                   <tr>
+                        <td colspan="2">John Doe</td>
+                        <td colspan="4">St.James College</td>
+                        <td>$120</td>
+                        <td><button class="b1">View</button></td>
+                    </tr>
+                    <tr>
+                    <td colspan="2">John Doe</td>
+                    <td colspan="4">St.James College</td>
+                    <td>$120</td>
+                    <td><button class="b1">View</button></td>
+                   </tr>
+                </table>
+
+            </div>
+
+            <div class="table2">
+                <h3>New Students &nbsp;&nbsp;&nbsp;&nbsp;<button class="b1">View All</button></h3>
+                <hr>
+                <table>
+                    <thead>
+                    <tr>
+                        <th colspan="2"> Profile</th>
+                        <th  colspan="2">Name</th>
+                        <th>Option</th>
+                    </tr>
+                    <tr>
+                        <td colspan="2">1</td>
+                        <td>John Steve Doe</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>John Steve Doe</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>John Steve Doe</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"></td>
+                        <td>John Steve Doe</td>
+                        <td></td>
+                    </tr>
+                </thead>
+
+            </div>
+            </div>
+
+        </div> -->
+    </div>
+    <br><br><br>
+    <div class="w1">
+        <div class="w2">
+            <div class="w3">
+            hello
+
+        </div></div>
+    </div>
+    
+</body>
+</html>
